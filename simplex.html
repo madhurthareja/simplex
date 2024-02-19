@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simplex Method</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h2>Simplex Method</h2>
+		</div>
+		<form action="simplex.php" method="post">
+			<div>
+				<label for="num_var">Number of Variables</label>
+				<input type="text" name="num_var" required>
+			</div>
+			<div>
+				<label for="num_cons">Number of Constraints</label>
+				<input type="text" name="num_cons" required>
+			</div>
+			<div>
+				<label for="objective">Objective Function</label>
+				<input type="text" name="objective" required>
+			</div>
+			<div>
+				<label for="constraints">Constraints</label>
+				<input type="text" name="constraints" required>
+			</div>
+			<div>
+				<button type="submit" class="btn">Solve</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
+
